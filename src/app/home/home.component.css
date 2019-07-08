@@ -1,0 +1,27 @@
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+}
+
+.title-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    margin-bottom: 1rem;
+}
+
+.dropdown-button-wrapper {
+    border: 1.5px solid #aaa;
+    border-radius: 8px;
+    padding: 0.3rem;
+    float: right;
+}
+
+.home-padding {
+    padding: 1.5rem;
+    padding-top: 4rem;
+}
+
+.card-block {
+    margin-top: 1.5rem;
+}

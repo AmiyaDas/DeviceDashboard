@@ -1,0 +1,12 @@
+.mat-toolbar.mat-primary {
+    background: #fff;
+    color: #111;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 1px #aaa;
+    z-index: 10;
+    position: fixed;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+    height: 3rem;
+}

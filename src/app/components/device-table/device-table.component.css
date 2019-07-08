@@ -1,0 +1,16 @@
+.device-table {
+    box-shadow: 1px 1px 10px 1px #aaa;
+    background-color: #fff;
+}
+
+.device-table-header {
+    border-bottom: 1px solid #aaa;
+    padding: 5px;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.device-table-header-icon {
+    float: right;
+    cursor: pointer;
+}

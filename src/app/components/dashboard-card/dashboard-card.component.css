@@ -1,0 +1,17 @@
+.dashboard-card {
+    box-shadow: 1px 1px 10px 1px #aaa;
+    background-color: #fff;
+    height: 12rem;
+    margin-bottom: 1.5rem;
+}
+
+.dashboard-card-header {
+    border-bottom: 1px solid #aaa;
+    padding: 4px;
+    padding-left: 6px;
+}
+
+.dashboard-card-header-icon {
+    float: right;
+    cursor: pointer;
+}
