@@ -2,27 +2,25 @@
   <div>
     <span class="title-text">Real-time Overview</span>
     <span class="dropdown">
-        <button [matMenuTriggerFor]="menu" class="btn dropdown-toggle dropdown-button-wrapper">Export
-        </button>
-        <mat-menu #menu="matMenu">
-          <button mat-menu-item>Item 1</button>
-          <button mat-menu-item>Item 2</button>
-        </mat-menu>
-      </span>
+      <button [matMenuTriggerFor]="menu" class="btn dropdown-toggle dropdown-button-wrapper">Export
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+    </span>
   </div>
 
   <div class="row card-block">
-    <app-dashboard-card cardTitle="Active Devices" class="col-md-4 col-sm-12 col-xs-12">text to insert</app-dashboard-card>
-    <app-dashboard-card cardTitle="Roles" class="col-md-4 col-sm-12 col-xs-12">
+    <app-dashboard-card cardTitle="Active Devices" class="col-md-4 col-sm-12 col-xs-12 col-12">text to insert
+    </app-dashboard-card>
+    <app-dashboard-card cardTitle="Roles" class="col-md-4 col-sm-12 col-xs-12 col-12">
       <div>
         text
       </div>
     </app-dashboard-card>
-    <app-dashboard-card cardTitle="Sample Board" class="col-md-4 col-sm-12 col-xs-12"></app-dashboard-card>
-
+    <app-dashboard-card cardTitle="Sample Board" class="col-md-4 col-sm-12 col-xs-12 col-12"></app-dashboard-card>
   </div>
 
-  <app-device-table>
-
-  </app-device-table>
+  <app-device-table></app-device-table>
 </div>

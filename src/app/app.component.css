@@ -10,3 +10,8 @@
 .mat-toolbar-row, .mat-toolbar-single-row {
     height: 3rem;
 }
+
+.home-page{
+    width: 100%;
+    /* position: fixed; */
+}
