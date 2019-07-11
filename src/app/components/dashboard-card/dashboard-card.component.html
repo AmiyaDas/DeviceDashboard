@@ -2,8 +2,12 @@
   <div class="dashboard-card-header">
     {{cardTitle}}
     <span class="dashboard-card-header-icon">
-      <mat-icon>more_horiz</mat-icon>
+      <mat-icon [matMenuTriggerFor]="cardMenu">more_horiz</mat-icon>
     </span>
+    <mat-menu #cardMenu="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
   </div>
   <ng-content></ng-content>
 </div>

@@ -18,10 +18,37 @@
 }
 
 .home-padding {
-    padding: 1.5rem;
+    padding: 2rem;
     padding-top: 4rem;
 }
 
 .card-block {
     margin-top: 1.5rem;
+}
+
+.card-alignmnet {
+    text-align: center;
+}
+
+.active-device-count {
+    font-size: 44px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.active-device-type{
+    margin-top: 0.5rem;
+}
+
+.device-title{
+    font-weight: bold;
+}
+
+.device-data{
+    color: #626;
+    margin-top: 0.5rem;
+}
+
+.device-title mat-icon{
+    vertical-align: bottom;
 }

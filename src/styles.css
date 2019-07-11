@@ -12,3 +12,21 @@ body{
        Every toolbar row uses a flexbox row layout. */
     flex: 1 1 auto;
 }
+
+
+/* d3 css */
+.axis {
+    font: 16px sans-serif;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.label {
+    font: 12px sans-serif;
+    fill: #fff;
+    font-weight: bold;
+}

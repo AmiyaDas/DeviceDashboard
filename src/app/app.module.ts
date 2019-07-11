@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { DashboardCardComponent } from './components/dashboard-card/dashboard-card.component';
 import { DeviceTableComponent } from './components/device-table/device-table.component';
 import { bootstrap } from 'bootstrap/dist/js/bootstrap.min.js';
+import { DashboardChartComponent } from './components/dashboard-chart/dashboard-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     DashboardCardComponent,
-    DeviceTableComponent
+    DeviceTableComponent,
+    DashboardChartComponent
   ],
   imports: [
     BrowserModule,

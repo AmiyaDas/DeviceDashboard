@@ -12,12 +12,35 @@
   </div>
 
   <div class="row card-block">
-    <app-dashboard-card cardTitle="Active Devices" class="col-md-4 col-sm-12 col-xs-12 col-12">text to insert
+    <app-dashboard-card cardTitle="Active Devices" class="col-md-4 col-sm-12 col-xs-12 col-12 card-alignmnet">
+      <div class="row">
+        <div class="col-12 active-device-count">
+          15
+        </div>
+      </div>
+      <div class="row active-device-type">
+        <div class="col-6">
+          <div class="device-title">
+            <mat-icon>phone_android</mat-icon>
+            Android
+          </div>
+          <div class="device-data">
+            12 (60%)
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="device-title">
+            <mat-icon>phone_android</mat-icon>
+            iOS
+          </div>
+          <div class="device-data">
+            8 (40%)
+          </div>
+        </div>
+      </div>
     </app-dashboard-card>
     <app-dashboard-card cardTitle="Roles" class="col-md-4 col-sm-12 col-xs-12 col-12">
-      <div>
-        text
-      </div>
+      <app-dashboard-chart></app-dashboard-chart>
     </app-dashboard-card>
     <app-dashboard-card cardTitle="Sample Board" class="col-md-4 col-sm-12 col-xs-12 col-12"></app-dashboard-card>
   </div>
